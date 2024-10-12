@@ -1,0 +1,86 @@
+body {
+  padding: 20px 30px;
+}
+#learning {
+  font-size: 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-, serif;
+  color: darkgrey;
+}
+#courses {
+  font-size: 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-, serif;
+  color: darkgrey;
+}
+
+.course-block {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  width: calc(33.33% - 20px); /* Adjust the width to fit 3 blocks in a row */
+  height: 250px;
+  display: inline-block; /* Display the blocks inline */
+  vertical-align: top; /* Align blocks to the top */
+  box-sizing: border-box; /* Include padding and border in the width */
+  margin-right: 20px; /* Add right margin to create space between blocks */
+}
+
+.course-block:last-child {
+  margin-right: 0; /* Remove right margin for the last block */
+}
+
+.course-name {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Put space between items */
+  font-weight: normal;
+  margin-bottom: 5px;
+  background-color: #0066cc; /* Dark blue background color */
+  color: #fff; /* White text color */
+  padding: 10px; /* Add padding to separate text from the background */
+
+}
+
+.course-description {
+  margin-bottom: 5px;
+  padding: 10px; /* Add padding to separate text from the background */
+  font-weight: lighter;
+  color: black;
+}
+
+.kbtu {
+  text-align: right;
+}
+.progress-circle {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #568;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black; /* Задаем цвет текста */
+  margin-left: 65%;
+  margin-top: -5%;
+
+}
+
+.progress-circle-inner {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  background-color: white; /* Задаем цвет внутренней части круга */
+  clip-path: circle();
+}
+
+.progress-text {
+  font-size: 24px;
+  color: black; /* Задаем цвет текста внутри круга */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: lighter;
+
+}
+

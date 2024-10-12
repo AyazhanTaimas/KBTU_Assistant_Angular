@@ -1,0 +1,50 @@
+<body>
+<h1 id="learning">I'm Learning</h1>
+<h2 id="courses">Courses</h2>
+<div *ngFor="let discipline of disciplines">
+  <div class="course-block">
+    <a [routerLink]="['/discipline', discipline.cipher]" class="course-name">
+      <h5 *ngIf="discipline.is_active" class="course-name">{{ discipline.name }} </h5>
+      <span  class="kbtu">KBTU</span>
+    </a>
+    <p class="course-description">The first course is about something</p>
+    <p class="course-description">Summer Price: {{discipline.price}}</p>
+  </div>
+
+  <div class="course-block">
+    <a [routerLink]="['/discipline', discipline.cipher]" class="course-name">
+      <h5 *ngIf="discipline.is_active" class="course-name">{{ discipline.name }} </h5>
+      <span  class="kbtu">KBTU</span>
+    </a>
+    <p class="course-description">The second course is about something</p>
+    <p class="course-description">Summer Price: {{discipline.price}}</p>
+  </div>
+
+  <div class="course-block">
+    <a [routerLink]="['/discipline', discipline.cipher]" class="course-name">
+      <h5 *ngIf="discipline.is_active" class="course-name">{{ discipline.name }} </h5>
+      <span  class="kbtu">KBTU</span>
+    </a>
+    <p class="course-description">The third course is about something</p>
+    <p class="course-description">Summer Price: {{discipline.price}}</p>
+  </div>
+
+  <div class="course-block">
+    <a [routerLink]="['/discipline', discipline.cipher]" class="course-name">
+      <h5 *ngIf="discipline.is_active" class="course-name">{{ discipline.name }} </h5>
+      <span  class="kbtu">KBTU</span>
+    </a>
+    <p class="course-description">The fourth course is about something</p>
+    <p class="course-description">Summer Price: {{discipline.price}}</p>
+  </div>
+
+  <div class="course-block">
+    <a [routerLink]="['/discipline', discipline.cipher]" class="course-name">
+      <h5 *ngIf="discipline.is_active" class="course-name">{{ discipline.name }} </h5>
+      <span  class="kbtu">KBTU</span>
+    </a>
+    <p class="course-description">The fifth course is about something</p>
+    <p class="course-description">Summer Price: {{discipline.price}}</p>
+  </div>
+</div>
+</body>

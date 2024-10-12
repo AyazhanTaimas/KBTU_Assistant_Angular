@@ -1,0 +1,58 @@
+body {
+  background-color: midnightblue; /* Цвет фона страницы */
+  display: flex; /* Используем flexbox */
+  justify-content: center; /* Горизонтальное выравнивание по центру */
+  align-items: center; /* Вертикальное выравнивание по центру */
+  height: 100vh; /* Заполняем всю высоту видимого окна */
+}
+.container {
+  display: flex;
+  flex-direction: column; /* Располагаем элементы вертикально */
+  align-items: center; /* Выравниваем элементы по центру по горизонтали */
+}
+
+#main-title {
+  position: absolute;
+  top: 90px; /* Расположение заголовка относительно верхнего края */
+  text-align: center;
+  font-size: 65px;
+  color: white;
+}
+
+.register {
+  background-color: white; /* Цвет фона формы */
+  padding: 20px; /* Внутренние отступы */
+  border-radius: 30px; /* Скругляем углы */
+  width: 43%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Отступ между группами полей формы */
+}
+
+.form-control {
+  width: 100%; /* Ширина полей формы */
+  padding: 13px; /* Внутренние отступы полей формы */
+  border: 1px solid #ccc; /* Граница полей формы */
+  border-radius: 5px; /* Скругляем углы полей формы */
+  margin-top: -18px;
+}
+
+.btn-primary {
+  background-color: midnightblue; /* Цвет кнопки */
+  color: white; /* Цвет текста на кнопке */
+  border: none; /* Убираем границу кнопки */
+  padding: 10px 50px; /* Внутренние отступы кнопки */
+  border-radius: 5px; /* Скругляем углы кнопки */
+  cursor: pointer; /* Изменяем указатель при наведении на кнопку */
+  width: 100%;
+}
+
+#Forgotpass {
+  display: block; /* Размещаем ссылку на новой строке */
+  text-align: center; /* Выравниваем по центру */
+  margin-top: 10px; /* Отступ сверху */
+  text-decoration: none; /* Убираем нижнее подчеркивание во всех ссылках */
+
+}

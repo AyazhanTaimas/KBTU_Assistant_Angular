@@ -1,0 +1,33 @@
+.disciplines-container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  color: #333;
+}
+
+.discipline-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.discipline-list li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer; /* Change cursor to indicate clickable items */
+  transition: background-color 0.3s;
+}
+
+.discipline-list li:hover {
+  background-color: #e0e0e0; /* Lighten background on hover */
+}
+
+.toggle {
+  color: #007bff; /* Blue color for the toggle text */
+  font-size: 0.9em;
+}
