@@ -23,6 +23,8 @@ body {
   margin-right: 20px; /* Add right margin to create space between blocks */
 }
 
+
+
 .course-block:last-child {
   margin-right: 0; /* Remove right margin for the last block */
 }

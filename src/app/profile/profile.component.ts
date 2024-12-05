@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileComponent implements OnInit {
   user = {
-    username: 'John Doe',
-    bio: 'I love programming!',
+    username: 'Ayazhan Taimas',
+    bio: 'lish bi ne umeret',
     profilePicture: 'https://via.placeholder.com/150' // Default picture
   };
 
